@@ -125,3 +125,69 @@
 // document.write("<h3>Marks Obtained: " + obtTotal + "</h3>");
 // document.write("<h3>Grade: " + grade + "</h3>");
 // document.write("<h3>Remarks: " + remarks + "</h3>");
+
+// ================ Q#07
+
+// var num, guess;
+
+// num = 7;
+// guess = parseInt(prompt("Enter your guess from 1 to 10"));
+// if (guess === num){
+//     document.write("<p>Bingo! Correct answer</p>");
+// }
+// else if (guess === num++){
+//     document.write("<p>Close enough to the current answer.</p>");
+// }
+
+// ================ Q#08
+
+// var guess;
+
+// guess = parseInt(prompt("Enter any number"));
+// if (if guess%3 === 0){
+//     document.write("<p>Number is divisible by 3</p>");
+// }
+
+// ================ Q#09
+
+// var guess;
+
+// guess = parseInt(prompt("Enter number to check even or odd"));
+// if (guess % 2 === 0) {
+//     document.write("<p>Number is even</p>");
+// } else if (guess % 2 !== 0) {
+//     document.write("<p>Number is odd</p>");
+// }
+
+// ================ Q#10
+
+// var temp;
+
+// temp = parseInt(prompt("Enter Temperature"));
+// if (temp > 40) {
+//     document.write("<p>It is too hot outside</p>");
+// } else if (temp > 30) {
+//     document.write("<p>The weather today is normal</p>");
+// } else if (temp > 20) {
+//     document.write("<p>Today's weather is cool.</p>");
+// } else if (temp > 10) {
+//     document.write("<p>OMG! Today's weather is so cool</p>");
+// }
+
+// ================ Q#11
+
+// var frst, scnd, res, op;
+
+// frst = parseInt(prompt("Enter first number"));
+// scnd = parseInt(prompt("Enter second number"));
+// op = prompt("Enter operator to perform");
+// if (op === "+") {
+//     res = frst + scnd;
+// } else if (op === "-") {
+//     res = frst - scnd;
+// } else if (op === "*") {
+//     res = frst * scnd;
+// } else if (op === "/") {
+//     res = frst / scnd;
+// }
+// document.write(`<p>${frst} ${op} ${scnd} = ${res}</p>`);
