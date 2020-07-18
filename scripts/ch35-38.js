@@ -124,3 +124,69 @@
 
 // ================ Q#11
 
+// function toUp(str) {
+//     var arr = str.split(' ');
+//     var res = []
+//     for (var i in arr) {
+//         var j = arr[i].toLowerCase().split('');
+
+//         j[0] = j[0].toUpperCase();
+//         k = j.join('');
+//         res.push(k);
+//     }
+//     var string = res.join(' ');
+//     document.write(`<p>${string}</p>`);
+
+// }
+
+// var frst = (prompt("Enter string to check palindrome"));
+// toUp(frst);
+
+// ================ Q#12
+
+// function longestString(str) {
+//     var arr = str.split(' ');
+//     var res = '';
+//     for (var i in arr) {
+//         if (arr[i].length > res.length) {
+//             res = arr[i]
+//         }
+//     }
+//     document.write(`<p>${res}</p>`);
+
+// }
+
+// var frst = (prompt("Enter string to check palindrome"));
+// longestString(frst);
+
+// ================ Q#13
+
+// function countLetter(str, letter) {
+//     var arr = str.split('');
+//     var count = 0;
+//     for (var i in arr) {
+//         if (arr[i] === letter) {
+//             count++
+//         }
+//     }
+//     document.write(`<p>${str} has ${count} ${letter}</p>`);
+
+// }
+
+// var frst = (prompt("Enter string: "));
+// var letter = (prompt("Enter letter to count: "));
+// countLetter(frst, letter);
+
+// ================ Q#14
+
+// function calcCircumference(r) {
+//     return (2 * 3.1415 * r);
+// }
+
+// function calcArea(r) {
+//     return (3.1415 * r * r);
+// }
+// var r = Number(prompt("Enter radius: "));
+// calcCircumference(r);
+// document.write(`<p>circumference of circle ${calcCircumference(r)}</p>`);
+// document.write(`<p>area of circle ${calcArea(r)}</p>`);
