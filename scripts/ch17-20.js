@@ -84,3 +84,12 @@
 //     }
 // }
 // document.write(`<p>${l}</p>`);
+
+// ================ Q#10
+
+// var A = [];
+
+// for (var i = 5; i <= 100; i+=5) {
+//     A.push(i)
+// }
+// document.write(`<p>${A}</p>`);
